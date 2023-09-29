@@ -1,0 +1,15 @@
+There are 3 types of Display PRoperty in the css : 
+(i) Block : 
+            - always write in the next line
+            - always aquire atmostlast to atmostright
+            - we will change the length and width
+            - we will change the margin and padding
+
+(ii) Inline : 
+            - write in the same line 
+            - always aqurire content wise space.
+            - we cannot apply custome width and custome hight.
+            - we will not apply the vertical[|] margin but we add the horizontal[-]margin. we will also change the padding horizontal and vartical both.
+
+(iii) Inline-Block : 
+            - it is work as a inline elements but is has a block element property like custome width and custome hight as well as we give padding and margin in both horizontal and verticle. but in the intial condition it work as a inline elements.

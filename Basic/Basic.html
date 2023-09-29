@@ -7,11 +7,11 @@
     <!-- THis is internal css-->
     <style>
         h1{
-            color: aqua;
+            color: aqua !important; /* If we write !important then this is the final desion means this is apply in all the following attributes or class or id with ignored inline css */
         }
     </style>
 
-    <link rel="stylesheet" href="Basic.css">
+    <link rel="stylesheet" href="Basic.css"> <!-- This is external css-->
 </head>
 <body>
     <h1 style="color: blue;">Lorem ipsum dolor sit amet.</h1> <!-- This style attribute is a inline CSS-->
@@ -19,3 +19,5 @@
     <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, perferendis? Perferendis sapiente porro corporis dignissimos nam nulla. Placeat omnis voluptas eum enim ullam?</span>
 </body>
 </html>
+
+<!-- remember always color was gride by his execution line or number here suppose first of all we apply internal css the external css and then inline css so in the last we have a inline css result-->
