@@ -1,0 +1,32 @@
+
+(i) relative : 
+            - in relative position we will change the location in term of left,right,top,bottom of the item(in our case - png).
+            - but at the moving situation we will not overlapping the other item(png).
+            - this will go if we will scroll the web page.
+            - gap maintained betweent the two items.
+
+
+(ii) absolute :
+            - in absolute position we will change the location in term of left,right,top,bottom of the item(in our case - png).
+            - but at the moving situation we will overlapping the other item(png).
+            -  in the left,right,top,bottom condition we can take a referace from the their nearest parent. for more understanding plese check the notebook notes.
+            - this will go if we will scroll the web page.
+            - gap does not maintained betweent the two items.
+
+(iii) fixed :
+            - in fixed position we will change the location in term of left,right,top,bottom of the item(in our case - png).
+            - but at the moving situation we will overlapping the other item(png).
+            - in the left,right,top,bottom condition we can take a referace from the their nearest parent. for more understanding plese check the notebook notes.
+            - this will not go if we will scroll the web page. this is work as a perment button or item in the web page.
+            - gap does not maintained betweent the two items.
+
+(iv) sticky : 
+            - in sticky position we will change the location in term of left,right,top,bottom of the item(in our case - png).
+            - but at the moving situation we will not overlapping the other item(png).
+            - in the left,right,top,bottom condition we can take a referace from the their nearest parent. for more understanding plese check the notebook notes.
+            - this will go if we will scrool and our container was end then it will go.for understanging see the codefile.
+            - it works as a stickeey notes.
+
+(v) Static : 
+            - it is work as a static position.
+            - we will not apply any any if the left,right,top,bottom elements.

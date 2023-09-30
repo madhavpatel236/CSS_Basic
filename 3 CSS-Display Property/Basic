@@ -1,7 +1,7 @@
-There are 3 types of Display PRoperty in the css : 
+There are 3 types of Display Property in the css : 
 (i) Block : 
             - always write in the next line
-            - always aquire atmostlast to atmostright
+            - always aquire atmostleft to atmostright
             - we will change the length and width
             - we will change the margin and padding
 
