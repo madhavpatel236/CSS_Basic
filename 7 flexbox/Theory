@@ -1,0 +1,4 @@
+(i) flex-direction : 
+                - form the help of the flex direction our content will be show in   the rowwise or columnwise.
+(ii) flex-wrap : 
+                - from the help of the wrap element our contant will not shrink by changing the width or height of the dispay, they diretcy go next line  without changing the actual size.

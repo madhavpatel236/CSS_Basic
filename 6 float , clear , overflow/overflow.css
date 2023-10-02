@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containor{
+    background-color: lightblue;
+    border: 5px solid rgb(234, 4, 4);
+    height: 500px;
+    width: 70%;
+    overflow: auto ;
+}
+#one{
+    float: right;
+    height: 100px;
+}
+#two{
+    float: right;
+    height: 100px;
+}

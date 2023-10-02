@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containor{
+    background-color: lightblue;
+    border: 5px solid black;
+}
+#one{
+    float: right;
+    height: 100px;
+}
+#two{
+    float: right;
+    clear: right;
+    height: 200px;
+}
