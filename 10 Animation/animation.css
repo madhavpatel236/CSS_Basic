@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    width: 0px;
+    box-sizing: border-box;
+}
+.containor{
+    width: 99vw;
+    height: 99vh;
+    background-color: lightblue;
+    border: 2px solid black;
+
+
+}
+.box{
+    width: 100px;
+    height: 10px;
+    background-color: lightsalmon;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+    position: relative;
+    /* animation-delay: 0;
+    animation-duration: 3s;
+    animation-name: rightmove;
+    animation-iteration-count: 2;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; */
+
+    /* animation-name | animation-duration | animation-timing-function | animation-iteration-count | animation-direction  */
+    animation: rightmove 5s linear 2s infinite alternate;
+}
+/* @keyframes rightmove {
+    from{
+        top: 0;
+        left: 0;
+    }
+    to{
+        top: 500px;
+        left: 1100px;
+    }
+} */
+
+@keyframes rightmove {
+    0%   {background-color:red; left:0px; top:0px;} 
+    25%  {background-color:yellow; left:900px; top:0px;}
+    50%  {background-color:blue; left:500px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+    /*  here persetage is a speed of the that property */
+}

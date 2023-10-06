@@ -10,6 +10,11 @@
     flex-direction: colums;
     display: grid;
     justify-items: center;
+    /* justify-items: start; */
+    /* justify-items: end; */
+    /* justify-items: first baseline; */
+    /* justify-items: flex-end; */
+    /* justify-items: flex-start; */
 }
 
 .box{
@@ -34,7 +39,7 @@
 
 #box3{
     background-color: gray;
-    justify-self: stretch ;
+    /* justify-self: stretch ; */
 }
 
 #box4{

@@ -2,3 +2,27 @@
                 - form the help of the flex direction our content will be show in   the rowwise or columnwise.
 (ii) flex-wrap : 
                 - from the help of the wrap element our contant will not shrink by changing the width or height of the dispay, they diretcy go next line  without changing the actual size.
+(iii) justify :
+                --->>>> justify-content : The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.
+
+                ---->>> justify-items & justify-self :The CSS justify-items property defines the default justify-self for all items of the box, giving them all a default way of justifying each box along the appropriate axis. in the justify items we write disply as a gride instand of flex ,because 
+                
+                -- Flexbox: Flexbox, short for the Flexible Box Layout, is a one-dimensional layout system. It primarily focuses on distributing space along a single axis, either horizontally or vertically. This makes it well-suited for arranging items in a row or a column
+
+                -- Grid: CSS Grid is a two-dimensional layout system, meaning it deals with both rows and columns. It allows you to create complex grid structures and control the placement of items within those grids in both horizontal and vertical directions.
+
+                - justify-self : The CSS justify-self property sets the way a box is justified inside its alignment container along the appropriate axis. 
+
+(iv)  align :
+                --->>>> align-contant : The CSS align-content property sets the distribution of space between and around content items along a flexbox's cross-axis or a grid's block axis at the time of wrapping.
+
+                --->>>> align-items : The CSS align-items property sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the Cross Axis. In Grid Layout, it controls the alignment of items on the Block Axis within their grid area.
+
+                --->>>> align-self : The align-self CSS property overrides a grid or flex item's align-items value. In Grid, it aligns the item inside the grid area. In Flexbox, it aligns the item on the cross axis.
+                                    - in short we can change the alingment of the perticular element in the cross axis.
+
+(v) flex-items : 
+                --->>>> order : with the help of the order property we can change the order of the flex-items with the value for higher order hive higher value and for lower order give a lower value.
+                --->>>> grow : with help of the flex-grow we can change the speed of the grow of flex-element at the time of changing the screen size or dimention.
+                --->>>> shrink : with the help of the shrink we can change the speed of the shrinking of the flex-element at the tim eof shrinking the screen size.
+                --->>>> basis : with the help of the basis we can change thw width(dimention) od the flex-element directly(for perticular element).
