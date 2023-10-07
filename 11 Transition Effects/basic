@@ -1,0 +1,56 @@
+-->>> Transetion : 
+             - Transitions enable you to define the transition between two states of an element. Different states may be defined using pseudo-classes like :hover or :active or dynamically set using JavaScript.
+
+--->>> transition-delay :
+            - The transition-delay CSS property specifies the duration to wait before starting a property's transition effect when its value changes.
+            - A value of 0s (or 0ms) will begin the transition effect immediately.
+            A positive value will delay the start of the transition effect for the given length of time.
+            - A negative value will begin the transition effect immediately, and partway through the effect. In other words, the effect will be animated as if it had already been running for the given length of time.
+
+--->>> transition-duration : 
+            - The transition-duration CSS property sets the length of time a transition animation should take to complete. By default, the value is 0s, meaning that no animation will occur.
+
+--->>> transition-property : 
+            - The transition-property CSS property sets the CSS properties to which a transition effect should be applied.
+            - Values
+                (i) none : No properties will transition.
+
+                (ii) all : All properties that can transition will.
+
+                (iii) <custom-ident> : A string identifying the property to which a transition effect should be applied when its value changes.
+
+--->>> transition-timing-function :
+            - The transition-timing-function CSS property sets how intermediate values are calculated for CSS properties being affected by a transition effect.
+            - Values
+                (i) <easing-function> : Each <easing-function> represents the easing function to link to the corresponding property to transition, as defined in transition-property.
+                - The non-step keyword values (ease, linear, ease-in-out, etc.) each represent cubic Bézier curve with fixed four point values, with the cubic-bezier() function value allowing for a non-predefined value. The step easing functions divides the input time into a specified number of intervals that are equal in length. It is defined by a number of steps and a step position.
+
+                (ii) ease : Equal to cubic-bezier(0.25, 0.1, 0.25, 1.0), the default value, increases in velocity towards the middle of the transition, slowing back down at the end.
+
+                (iii) linear : Equal to cubic-bezier(0.0, 0.0, 1.0, 1.0), transitions at an even speed.
+
+                (iv) ease-in : Equal to cubic-bezier(0.42, 0, 1.0, 1.0), starts off slowly, with the transition speed increasing until complete.
+
+                (v) ease-out :Equal to cubic-bezier(0, 0, 0.58, 1.0), starts transitioning quickly, slowing down as the transition continues.
+
+                (vi) ease-in-out : Equal to cubic-bezier(0.42, 0, 0.58, 1.0), starts transitioning slowly, speeds up, and then slows down again.
+
+                (vii) cubic-bezier(p1, p2, p3, p4) : An author-defined cubic-Bezier curve, where the p1 and p3 values must be in the range of 0 to 1.
+
+                (viii) steps( n, <jumpterm>) : Displays the transition along n stops along the transition, displaying each stop for equal lengths of time. For example, if n is 5, there are 5 steps. Whether the transition holds temporarily at 0%, 20%, 40%, 60% and 80%, on the 20%, 40%, 60%, 80% and 100%, or makes 5 stops between the 0% and 100% along the transition, or makes 5 stops including the 0% and 100% marks (on the 0%, 25%, 50%, 75%, and 100%) depends on which of the following jump terms is used:
+
+                (ix) jump-start :Denotes a left-continuous function, so that the first jump happens when the transition begins;
+
+                (x) jump-end : Denotes a right-continuous function, so that the last jump happens when the animation ends;
+
+                (xi) jump-none : There is no jump on either end. Instead, holding at both the 0% mark and the 100% mark, each for 1/n of the duration
+
+                (xii) jump-both : Includes pauses at both the 0% and 100% marks, effectively adding a step during the transition time.
+
+                (xiii) start : Same as jump-start.
+
+                (xiv)end : Same as jump-end.
+
+                (xv)step-start : Equal to steps(1, jump-start)
+
+                (xvi) step-end : Equal to steps(1, jump-end)

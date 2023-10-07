@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containor{
+    background-color: lightgray;
+    border: 2px solid black;
+    width: 99vw;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(246, 80, 80);
+    border: 2px solid black;
+    /* border-radius: 150px; */
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear ;
+    box-shadow: inset 0 3em 3em rgb(81, 201, 33);
+}
+.box:hover{
+    transform: rotate(50deg);
+
+    /* x-offset | y-offset */
+    /* transform-origin: 3cm 2px; */
+
+    /* x-offset-keyword | y-offset */
+    /* transform-origin: left 2px; */
+
+    /* x-offset-keyword | y-offset-keyword */
+    /* transform-origin: right top; */
+
+    /* y-offset-keyword | x-offset-keyword */
+    /* transform-origin: top right; */
+
+    /* x-offset | y-offset | z-offset */
+    /* transform-origin: 2px 30% 10px; */
+
+    /* x-offset-keyword | y-offset | z-offset */
+    /* transform-origin: left 5px -3px; */
+
+    /* x-offset-keyword | y-offset-keyword | z-offset */
+    /* transform-origin: right bottom 2cm; */
+
+    /* y-offset-keyword | x-offset-keyword | z-offset */
+    /* transform-origin: bottom right 2cm; */
+}

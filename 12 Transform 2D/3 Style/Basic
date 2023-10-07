@@ -1,0 +1,11 @@
+--->>> transform-style - The transform-style CSS property sets whether children of an element are positioned in the 3D space or are flattened in the plane of the element
+
+--->>> Values :
+        (i) flat - Indicates that the children of the element are lying in the plane of the element itself.
+
+        (ii) preserve-3d - Indicates that the children of the element should be positioned in the 3D-space.
+
+--->>> Transform style demonstration :
+                - In this example we have a 3D cube created using transforms. The parent container of the cube faces has transform-style: preserve-3d set on it by default, so it is transformed in the 3D space and you can see it as intended.
+
+                - We also provide a checkbox allowing you to toggle between this, and transform-style: flat. In this alternative state, the cube faces are all flattened onto the plane of their parent, and you might not be able to see them at all, depending on the browser you are using.
